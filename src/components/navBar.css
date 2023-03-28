@@ -1,0 +1,46 @@
+.navbar-frame {
+  display: flex;
+  background-color: #424242;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.navbar-box-left {
+  display: flex;
+}
+
+.navbar-box-right {
+  display: flex;
+}
+
+.navbar-button {
+  font-weight: normal;
+  color: #F4F4F4;
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+
+.navbar-button:not(:first-child) {
+  margin-left: 2vw;
+}
+
+.navbar-username {
+  color: #F4F4F4;
+  font-size: 20px;
+  margin-left: 2vw;
+  padding-top: 9px;
+}
+
+.navbar-avatar {
+  margin-left: 10px;
+  width: auto;
+  height: 41px;
+  border-radius: 20px;
+}
+
+.triangle {
+  color: white;
+  font-size: 12px;
+}

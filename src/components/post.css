@@ -1,0 +1,40 @@
+.flexbox-1 {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray
+}
+
+.flexbox-1:first-child {
+  border: 1px solid lightgray;
+}
+
+.flexbox-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.post-avatar {
+  margin-left: 10px;
+  width: auto;
+  height: 41px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.username, .content, .review {
+  padding: 2px;
+}
+
+.username {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.reply {
+  font-size: 12px;
+  padding-top: 4px;
+}

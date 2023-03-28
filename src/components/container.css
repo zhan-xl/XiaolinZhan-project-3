@@ -1,0 +1,15 @@
+.flexbox {
+  display: flex;
+}
+
+.left-colum {
+  flex: 0 0 240px;
+}
+
+.right-colum {
+  flex: 0 0 240px;
+}
+
+.posts {
+  flex: 1;
+}
